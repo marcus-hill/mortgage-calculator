@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Young+Serif&display=swap");
+
+.mortgage-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.mortgage-calculator {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding: calc(32rem / 16) calc(24rem / 16);
+}
+
+.mortgage-heading {
+  font-size: calc(24rem / 16);
+  margin-bottom: calc(7rem / 16);
+}
+
+.mortgage-clear-all {
+  color: #4e6e7e;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.mortgage-clear-all:hover {
+  cursor: pointer;
+}
+
+.awaitingResultSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #133041;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding: calc(35rem / 16) calc(24rem / 16);
+}
+
+.awaitingResultsHeading {
+  color: white;
+  font-size: calc(24rem / 16);
+  margin-bottom: 1rem;
+}
+
+.awaitingResultsText {
+  text-align: center;
+  color: #9abed5;
+}
+
+@media (min-width: calc(650rem/16)) {
+  .mortgage-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4f4fd;
+  }
+
+  .mortgage-holder {
+    background-color: white;
+    border-radius: 24px;
+    margin: calc(40rem / 16);
+  }
+
+  .awaitingResultSection {
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+  }
+
+  .title-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: calc(1000rem/16)) {
+  .mortgage-calculator {
+    min-width: 50%;
+  }
+  .mortgage-holder {
+    display: flex;
+  }
+  .awaitingResultSection {
+    border-bottom-left-radius: 100px;
+  }
+  .awaitingResultSection {
+    padding: calc(40rem / 16);
+    justify-content: center;
+  }
+  .awaitingResultsText {
+    max-width: 80%;
+  }
+}

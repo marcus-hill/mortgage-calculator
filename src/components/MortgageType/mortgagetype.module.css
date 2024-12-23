@@ -1,0 +1,43 @@
+/* .mortgageTypeContainer {
+} */
+
+.mortgageTypeLabel {
+  border: 1px solid #6b94a8;
+  margin-top: calc(12rem / 16);
+  margin-bottom: calc(12rem / 16);
+  padding: calc(14.25rem / 16) calc(12rem / 16);
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  color: #133041;
+  font-weight: 700;
+  font-size: calc(18rem / 16);
+}
+
+.mortgageTypeLabel:hover {
+  cursor: pointer;
+}
+
+.radioInput:hover {
+  cursor: pointer;
+}
+
+.mortgageTypeLabel:has(input[type="radio"]:checked) {
+  background-color: rgba(216, 219, 47, 0.15);
+  border-color: #d8db2f;
+}
+
+.radioInput {
+  height: calc(20rem / 16);
+  width: calc(20rem / 16);
+  margin-right: calc(14.25rem / 16);
+  accent-color: #d8db2f;
+  border: none;
+  box-shadow: none !important;
+  outline-color: transparent;
+}
+
+.mortgageTypeHeading {
+  color: #4e6e7e;
+  font-weight: 500;
+}
