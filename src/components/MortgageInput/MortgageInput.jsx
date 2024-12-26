@@ -4,7 +4,7 @@ import classNames from "classnames";
 const MortgageInput = ({ inputName, inputId, inputSymbol, position, setInput, inputType }) => {
   return (
     <div className={classes.mortgageInputContainer}>
-      <label className={classes.mortgageInputLabel} htmlFor={inputName}>
+      <label className={classes.mortgageInputLabel} htmlFor={inputId}>
         {inputName}
       </label>
       <div className={classes.mortgageInputFieldContainer}>
